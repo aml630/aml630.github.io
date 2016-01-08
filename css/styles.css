@@ -20,6 +20,7 @@
 
 header {
   background-color: #e5f9ff;
+  border-bottom: 1px solid grey;
 }
 
 header a {
@@ -48,6 +49,14 @@ body {
   box-shadow: 10px 10px 5px #888888;
   background-color: #F8F8F8 ;
   margin:20px;
+  transition-duration: 1s;
+
+}
+.section:hover {
+  background-color:white;
+
+  transition-duration: 1s;
+
 
 }
 
