@@ -1,11 +1,11 @@
 .me {
   height: 15%;
   width: 70%;
-  border-radius: 15%;
   opacity: .5;
   box-shadow: 5px 5px 5px #888888;
   margin-left: 40px;
-
+max-width: 70%;
+max-height: 15%;
 }
 
 .main {
@@ -26,15 +26,15 @@ header {
 header a {
 transition-duration: 1s;
 text-align: right;
-margin: 20px;
-font-size: 40px;
+margin: 0px;
+font-size: 20px;
 margin: 1px;
-padding: 10px;
+padding: 0px;
 border-right: 5px solid white;
 
 }
 header a:hover {
-  font-size: 50px;
+  font-size: 30px;
   color:red;
   transition-duration: 1s;
 }
@@ -54,7 +54,7 @@ body {
 }
 .section:hover {
   background-color:white;
-
+box-shadow: 0px 0px 0px #888888;
   transition-duration: 1s;
 
 
@@ -84,5 +84,15 @@ body {
 
 .ghPages {
 color: red;
+}
 
+.navbar {
+  height: auto;
+}
+.navbar h3{
+  padding-top: 15px;
+  margin: 0px;
+}
+.big {
+font-size: 35px;
 }
