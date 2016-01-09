@@ -10,6 +10,7 @@ max-height: 15%;
 
 .main {
   text-align: center;
+  background-color: #ccffff;
 }
 
 .sidebar {
@@ -35,8 +36,8 @@ border-right: 5px solid white;
 }
 header a:hover {
   font-size: 30px;
-  color:red;
   transition-duration: 1s;
+background-color: #e5ffff !important;
 }
 
 body {
